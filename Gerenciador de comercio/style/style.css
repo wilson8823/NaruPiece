@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+/* Menu topo */
+header {
+    position: fixed;
+    background: linear-gradient(180deg, #fafafa, #ddd8d8);
+    margin-top: -110px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 8px #000;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a img {
+    display: flex;
+    width: 50px;
+    margin-left: 120px;
+}
+
+header #nav #btn-mobile {
+    display: none;
+}
+
+header #nav {
+    display: none;
+}
+
+header #nav {
+    width: 70%;
+    display: flex;
+    border-left: 1px solid #b4b4b4;
+
+}
+
+header #nav #menu {
+    display: flex;
+    gap: 30px;
+}
+
+header #nav #menu li {
+    display: flex;
+    list-style: none;
+}
+
+header #nav #menu li a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+
+}
+
+#nav #menu li a:hover {
+    color: rgb(194, 7, 7);
+    transition: 0.10s;
+    text-shadow: 1px 11px 10px #5a5a5a;
+
+}
+
+#nav #menu li a.active {
+    color: rgb(194, 7, 7);
+    transition: 0.10s;
+    text-shadow: 1px 11px 10px #5a5a5a;
+
+}
+
+/*CONFIGURAÇÃO DAS REGUAS DO SITE */
+.regua {
+    width: 70%;
+    height: 1px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+/* conteudo main */
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+
+}
+
+.container .fund-rpg {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* tela informativa de exames */
+.container .text1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 110px;
+
+}
+
+.container .text1 h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 1px 2px 5px;
+}
+
+.container .text1 p {
+    font-size: 16px;
+    text-indent: 10px;
+
+}
+
+.info--exames {
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    grid: 20px;
+
+}
+
+#info--exames fieldset {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border-color: green;
+}
+
+#info--exames fieldset legend {
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/*Fim tela informativa de exames */
+
+.container2 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.container2 .tela-falando-do-site {
+    width: 70%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container2 .fund-rpg {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container2 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container2 p {
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background: linear-gradient(180deg, #fafafa, #ddd8d8);
+    display: flex;
+    width: 100%;
+    height: 280px;
+    box-shadow: 1px 4px 10px #000;
+    margin-top: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+footer .regua-footer {
+    width: 200px;
+    height: 1px;
+    background-color: #000;
+    margin: 15px 0 auto;
+}
+
+footer .btn-redes {
+    width: 40%;
+    display: block;
+}
+
+footer .btn-redes {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .btn-redes .social-icons {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .btn-redes .social-icons svg {
+    width: 20px;
+    height: 20px;
+    color: #000;
+}
+
+footer .btn-redes #btn-itg:hover {
+    color: rgba(167, 65, 250, 0.945);
+}
+
+footer .btn-redes #btn-ytb:hover {
+    color: red;
+}
+
+footer .btn-redes #btn-tk-tk:hover {
+    color: rgb(255, 80, 246);
+}
+
+footer .btn-redes #btn-wpp:hover {
+    color: rgb(9, 238, 28);
+}
+
+footer .developer {
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
