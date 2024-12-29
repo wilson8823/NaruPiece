@@ -1,0 +1,100 @@
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadastre-se.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>RPG - Narupiece | Cadastro</title>
+</head>
+
+<body>
+    <header class="topo">
+        <div class="logo-np">
+            <a href=""><img src="/img/logo_do_rpg.jpg" alt="">
+                <span>Narupiece</span>
+            </a>
+        </div>
+        <nav class="menu-nav">
+            <a href="https://www.youtube.com/watch?v=fWqhN3HNeLE&list=PLl4SCXy_QZQs2rT8PPMEe4k62GtsAn9Me"
+                target="_blank">Tutoriais</a>
+            <a href="">Sobre</a>
+        </nav>
+        </div>
+    </header>
+    <div class="container">
+
+        <fieldset>
+            <legend>Preencha os dados abaixo para se cadastrar!</legend>
+            <form action="registro_ninja" class="">
+
+                <label for="idade">Data de nascimento?
+                    <input type="date" name="data-nasc" id="data_Nasc">
+                </label>
+
+
+                <select name="vila" id="vila">
+
+                    <option value="#">Selecione sua vila...</option>
+                    <option value="clas_suna" class="" id="">Suna-Gakure</option>
+                    <option value="konohagakure" class="" id="">Konoha-Gakure</option>
+                    <option value="kumogakure" class="" id="">Kumo-Gakure</option>
+                    <option value="kirigakure" class="" id="">Kiri-Gakure</option>
+                    <option value="mungakure" class="" id="">Mun-Gakure</option>
+                    <option value="pais-wano" class="" id="">País de Wano</option>
+                    <option value="iwagakure" class="" id="">Iwa-Gakure</option>
+
+                </select>
+
+                <select name="clas_suna" id="clas_suna">
+
+                    <option value="#">Selecione o clã...</option>
+                    <option value="">Sabaku</option>
+                    <option value="">Render</option>
+                    <option value="">Akasuna</option>
+                    <option value="">Kazekage</option>
+                    <option value="">Shirogane</option>
+
+                </select>
+
+                <fieldset>
+
+                    <legend>Seus dados do RPG</legend>
+
+                    <label for="nome">Nome completo:
+                        <input placeholder="Digite seu nome completo..." class="nome_completo" id="nome" type="text"
+                            name="nome">
+                    </label>
+                    <label for="nick">Nome do ninja:
+                        <input placeholder="Digite seu nick..." type="text" id="nick" name="nick">
+                    </label>
+                    <label for="senha">Senha:
+                        <input placeholder="Digite sua senha..." type="password" id="senha" name="senha">
+                    </label>
+                    <label for="confirmacao-senha">confirme sua senha:
+                        <input placeholder="Confirme sua senha..." type="password" id="confirmacao-senha"
+                            name="confirmacao-senha">
+                    </label>
+                    <label for="confirmacao-senha">confirme sua senha:
+                        <input placeholder="Confirme sua senha..." type="password" id="confirmacao-senha"
+                            name="confirmacao-senha">
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Dados para futura recuperação de senha</legend>
+
+                    <label for="email">E-mail:<input placeholder="Digite seu E-mail..." type="email" id="email"
+                            name="email"></label>
+                    <label for="nick">Número de celular:<input placeholder="Digite seu telefone..." type="text"></label>
+
+                </fieldset>
+
+                <button type="submit" onclick="salvar">Enviar</button>
+
+            </form>
+        </fieldset>
+    </div>
+</body>

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #800000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 5px;
+}
+
+header img {
+    width: 20%;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.logo-np a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-np span {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+header .menu-nav {
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+header .logo-np {
+    margin: 0 auto;
+}
+
+nav a {
+    position: relative;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+nav a::after {
+    position: absolute;
+    content: " ";
+    width: 0%;
+    height: 3px;
+}
+
+nav a:hover::after {
+    position: absolute;
+    content: " ";
+    background-color: #d4d100;
+    width: 85%;
+    height: 3px;
+    top: 25px;
+    left: 10px;
+    transition: 0.5s;
+}
+
+/* Formulario do ninja*/
+
+.container {
+    padding: 4%;
+}
+
+.container legend {
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container fieldset {
+    border-radius: 10px;
+}
+
+.container fieldset form {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.container form fieldset {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.container fieldset form select {
+    width: 350px;
+    padding: 3px;
+}
+
+.container label .nome_completo {
+    width: 350px;
+}
+
+.container label {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+.container label input {
+    width: 350px;
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}

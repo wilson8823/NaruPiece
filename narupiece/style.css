@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #8b1616;
+    display: flex;
+    /* Ativa o Flexbox no body */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    min-height: 100vh;
+    /* Garante que o body ocupe a altura total da tela */
+    margin: 0;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tela-login {
+    background-color: #800000;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    border: 1px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.tela-login:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 1);
+    transition: 0.6s;
+}
+
+img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.nome-senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+
+.nome-senha input {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+section button {
+    outline: none;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: rgb(163, 182, 93);
+    color: white;
+    transition: 0.3s;
+}
+
+.tela-login section a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.tela-login section a:hover {
+    color: gold;
+    transition: 0.6s;
+}
